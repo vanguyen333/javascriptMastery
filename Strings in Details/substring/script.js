@@ -23,3 +23,8 @@ console.log(words.split("")); //['d','o','g']
 const sentence = "the quick dog runs around.";
 const word = sentence.split(" ");
 console.log(word); //split each word separately
+
+//Reverse A STRING
+const exampleString2 = "test";
+const reversedString = exampleString2.split("").reverse(); //reverse() is an array method
+console.log(reversedString); //['t', 's', 'e', 't']
