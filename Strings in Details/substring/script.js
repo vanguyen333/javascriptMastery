@@ -16,3 +16,10 @@ exampleString.endsWith("ducks"); // false
 const exampleString1 = "hotdog";
 
 exampleString1.slice(3, 6); // dog
+
+//SPLIT A STRING
+const words = "dog";
+console.log(words.split("")); //['d','o','g']
+const sentence = "the quick dog runs around.";
+const word = sentence.split(" ");
+console.log(word); //split each word separately
