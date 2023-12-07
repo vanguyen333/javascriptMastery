@@ -37,3 +37,28 @@ console.log(dogSays.repeat(3));
 //trim()
 const email = " contact@gmail.com     ";
 console.log(email.trim(" "));
+
+//EXERCISES
+//guests
+const guestList = "Our guests are: emma, jacob, isabella, ethan";
+
+//get a length
+console.log(guestList.length); //44
+//upper case the enter string
+console.log(guestList.toUpperCase());
+//check weather "ETHAN" is on the uppercasedGuestList
+//store the answer in a variable called isEthanOnTheList
+const uppercasedGuestList = guestList.toUpperCase();
+const isEthanOnTheList = uppercasedGuestList.includes("ETHAN");
+isEthanOnTheList ? console.log("true") : console.log("false");
+
+//create a substring that only contains the following:
+//'EMMA, JACOB, ISABELLA, ETHAN'
+const substringGuests = uppercasedGuestList.slice(16, guestList.length);
+console.log(substringGuests);
+
+//out of the substring u just created, create an array of names
+// of people that are on the list
+//store that array in a variable called guests
+const guests = substringGuests.split(" ");
+console.log(guests);
