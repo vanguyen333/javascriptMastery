@@ -28,3 +28,12 @@ console.log(word); //split each word separately
 const exampleString2 = "test";
 const reversedString = exampleString2.split("").reverse(); //reverse() is an array method
 console.log(reversedString); //['t', 's', 'e', 't']
+
+//REPEAT
+
+const dogSays = "woof";
+console.log(dogSays.repeat(3));
+
+//trim()
+const email = " contact@gmail.com     ";
+console.log(email.trim(" "));
