@@ -11,3 +11,8 @@ exampleString.includes("ducks"); // true
 
 exampleString.startsWith("I"); // true
 exampleString.endsWith("ducks"); // false
+
+//Getting the substring with slice(,)
+const exampleString1 = "hotdog";
+
+exampleString1.slice(3, 6); // dog
