@@ -51,3 +51,14 @@ const admin = Object.freeze(user);
 admin.password = 123456;
 admin.username = "test";
 console.log(admin);
+
+// Object.seal() prevents new properties from being added to an object,
+//but allows the modification of existing properties.
+const people = {
+  username: "Na",
+  password: "1",
+};
+const newUser = Object.seal(people);
+people.password = "test123";
+newUser.active = true;
+console.log(people);
