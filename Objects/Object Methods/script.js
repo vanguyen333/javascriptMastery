@@ -38,3 +38,16 @@ entries.forEach((entry) => {
   let value = entry[1];
   console.log(`${key}: ${value}`);
 });
+
+// Object.freeze() prevents modification to properties and values of an object,,
+//and prevents properties from being added or removed from an object.
+
+const user = {
+  username: "John",
+  password: 123123,
+};
+
+const admin = Object.freeze(user);
+admin.password = 123456;
+admin.username = "test";
+console.log(admin);
