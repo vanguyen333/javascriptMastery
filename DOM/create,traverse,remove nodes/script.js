@@ -14,3 +14,6 @@ favSubject;
 favSubject.previousElementSibling;
 favSubject.nextElementSibling;
 favSubject.parentElement;
+
+//Remove element from the DOM
+favSubject.remove();
