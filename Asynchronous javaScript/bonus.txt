@@ -1,0 +1,4 @@
+Event loop
+https://www.youtube.com/watch?v=8aGhZQkoFbQ
+API Data Fetching Project
+https://www.youtube.com/watch?v=HXQZfuSMTfM
